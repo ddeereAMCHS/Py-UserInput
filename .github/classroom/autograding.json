@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Billy Bob",
+      "run": "python UserInput.py",
+      "input": "Billy Bob\r\n15",
+      "output": "Hello Billy Bob, you will be 45 in 30 years.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Sally",
+      "run": "python UserInput.py",
+      "input": "Sally\r\n16",
+      "output": "Hello Sally, you will be 46 in 30 years.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
